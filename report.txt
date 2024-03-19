@@ -1,0 +1,58 @@
+Report:
+
+- 15 school districts
+- 39170 students
+- total budget: $24,649,428
+- average math score for entire district: 78.99
+- average reading score for entire district: 81.88
+- district pass rate for math: 74.98%
+- district pass rate for reading: 85.81%
+- district pass rate for math and reading: 65.17%
+
+Created a dataframe summarizing the above values.
+
+The following values were calculated for each school:
+
+- the type of school (district or charter)
+- number of students
+- budget
+- budget per student
+- average math score
+- average reading score
+- pass rate for math
+- pass rate for reading
+- pass rate for math and reading
+
+Created a dataframe summarizing the above values with the school names as the index.
+
+Created smaller dataframes that sorted the schools by their overall passing percentage.
+
+- one dataframes sorted by highest passing percentage (top schools)
+- the other dataframe sorted by lowest passing percentage (bottom schools)
+
+Created a dataframe that directly compared each grade of students (9th - 12th) with their math scores, for each school.
+Created a dataframe that directly compared each grade of students (9th - 12th) with their reading scores, for each school.
+
+Created an extra column for spending ranges per student. This was done with data slicing and bins.
+Using this new column, created a new dataframe that focused only on the spending ranges per student and what their corresponding scores/pass
+rates are.
+
+Added yet another column to the original dataframe to include school size and then created another dataframe comparing the students'
+scores/pass rates based on the size of the school (number of students).
+
+Lastly,  the same thing as above was done with the type of school, effectively comparing students' scores/pass rates with the type of school
+(district or charter).
+
+
+
+Conclusions:
+
+1. Charter schools have significantly higher scores pass rates for both math and english. 
+
+2. The largest schools (between 2000-5000 students) see a significant decrease in their pass rates
+
+3. The percentage of students passing math, reading, and both actually seems to be inversely proportional to the spending per student
+(would want more data to confirm, seems like a weird conclusion).
+
+4. There doesn't seem to be any correlation between scores and the grades of the students.
+
